@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
+
+.box-shadow {
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
 @tailwind utilities;

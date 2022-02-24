@@ -8,7 +8,39 @@
     <link rel='shortcut icon' type='image/x-icon' href='./assets//favicon.ico' />
     <title>Facebook - login and signup</title>
 </head>
-<body>
-    <p class="bg-red-400">Aman Sahu</p>
+<body class="bg-gray-200">
+    <div class="container flex flex-col justify-start items-center mt-14">
+
+        <img src="./assets/dF5SId3UHWd.svg" alt="facebook" class="w-56 mb-1">
+
+        <div class="input-feilds flex flex-col justify-start items-center bg-white px-4 py-5 text-md w-3/12 box-shadow">
+
+            <p class="text-lg mb-2">
+                Log in to Facebook
+            </p>
+
+            <input type="text" name="email" id="email" placeholder="Enter email or phone number" class="border border-1 border-gray-300 px-3 py-2 rounded-md outline-blue-300 my-2 w-full h-12"/>
+
+            <input type="password" name="password" id="password" placeholder="Enter password" class="border border-1 border-gray-300 px-3 py-2 rounded-md outline-blue-300 my-2 mt-1 w-full h-12"/>
+
+            <button type="submit" class="bg-blue-500 text-white font-bold py-3 text-lg w-full rounded-sm my-2 hover:bg-blue-600">
+                Log In
+            </button>
+
+            <span class="text-blue-500 hover:underline cursor-pointer my-2 mt-1">
+                Forgotton Account?
+            </span>
+
+            <div class="flex justify-start items-center w-full my-2">
+                <div class="border border-t-0 border-b-1 border-gray-300 bg-gray-300 w-full mr-2"></div>
+                <span class="text-sm">or</span>
+                <div class="border border-t-0 border-b-1 border-gray-300 bg-gray-300 w-full ml-2"></div>
+            </div>
+            
+            <button class="my-2 bg-green-500 hover:bg-green-600 text-white rounded-md py-3 px-5 font-semibold text-md">
+                Create New Account
+            </button>
+        </div>
+    </div>
 </body>
 </html>
